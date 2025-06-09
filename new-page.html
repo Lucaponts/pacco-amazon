@@ -37,6 +37,7 @@
 			font-family: Arial, Helvetica, sans-serif
 		}
 
+		.bee-row-2 .bee-col-1 .bee-block-2 a,
 		a {
 			color: #7747FF
 		}
@@ -46,7 +47,8 @@
 		}
 
 		body,
-		h1 {
+		h1,
+		p {
 			margin: 0
 		}
 
@@ -95,6 +97,10 @@
 			width: 100%
 		}
 
+		.bee-paragraph {
+			overflow-wrap: anywhere
+		}
+
 		@media (max-width:415px) {
 			.bee-row-content:not(.no_stack) {
 				display: block
@@ -133,6 +139,10 @@
 			width: 100%
 		}
 
+		.bee-row-2 .bee-col-1 .bee-block-2 {
+			padding: 10px
+		}
+
 		.bee-row-4 .bee-col-1 .bee-block-1 {
 			padding: 10px;
 			text-align: center
@@ -149,6 +159,20 @@
 			padding-bottom: 5px;
 			padding-top: 5px;
 			text-align: center
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2 {
+			color: #101112;
+			direction: ltr;
+			font-size: 18px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: left
+		}
+
+		.bee-row-2 .bee-col-1 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 16px
 		}
 
 		.bee-row-2 .bee-col-1 .bee-block-1 h1 {
@@ -175,6 +199,14 @@
 			margin-right: 0
 		}
 
+		.bee-row-5 .bee-col-1 .bee-block-1 .bee-icon-image {
+			padding: 5px 6px 5px 5px
+		}
+
+		.bee-row-5 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+			margin-right: 0
+		}
+
 		.bee-row-4 .bee-col-1 .bee-block-1 a {
 			background-color: #000000;
 			border-radius: 24px;
@@ -187,14 +219,6 @@
 			line-height: 200%;
 			padding: 5px 20px;
 			width: auto
-		}
-
-		.bee-row-5 .bee-col-1 .bee-block-1 .bee-icon-image {
-			padding: 5px 6px 5px 5px
-		}
-
-		.bee-row-5 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
-			margin-right: 0
 		}
 	</style>
 </head>
@@ -217,7 +241,10 @@
 <div class="bee-row-content">
 <div class="bee-col bee-col-1 bee-col-w12">
 <div class="bee-block bee-block-1 bee-heading">
-<h1><span class="tinyMce-placeholder">Alice, il tuo pacco sta arrivando!</span> </h1>
+<h1><span class="tinyMce-placeholder">Alice, il tuo pacco non è ancora andato in frantumi!</span> </h1>
+</div>
+<div class="bee-block bee-block-2 bee-paragraph">
+<p>Solo per te AliceLeopardo2003, che sei una nostra fedelissima cliente, sarà disponibile la funzione "RIPROGRAMMA LA CONSEGNA"</p>
 </div>
 </div>
 </div>
@@ -225,14 +252,14 @@
 <div class="bee-row bee-row-3">
 <div class="bee-row-content">
 <div class="bee-col bee-col-1 bee-col-w12">
-<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-autowidth" src="images/Immagine_WhatsApp_2025-06-05_ore_16.33.59_780d405c_1.jpg" style="max-width:395px;"/></div>
+<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-autowidth" src="images/ChatGPT_Image_9_giu_2025_15_54_06.png" style="max-width:395px;"/></div>
 </div>
 </div>
 </div>
 <div class="bee-row bee-row-4">
 <div class="bee-row-content">
 <div class="bee-col bee-col-1 bee-col-w12">
-<div class="bee-block bee-block-1 bee-button"><a class="bee-button-content" href="https://docs.google.com/forms/d/e/1FAIpQLSei2DiL_9EcbaSP9Cv3V7VUFdVjviwMRRyC4g-tvIGShYem5w/viewform?usp=dialog" style="font-size: 15px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 15px; line-height: 200%; letter-spacing: normal;">CLICCA QUI E SCEGLI LA DATA DI CONSEGNA</span></a></div>
+<div class="bee-block bee-block-1 bee-button"><a class="bee-button-content" href="https://docs.google.com/forms/d/e/1FAIpQLSei2DiL_9EcbaSP9Cv3V7VUFdVjviwMRRyC4g-tvIGShYem5w/viewform?usp=dialog" style="font-size: 15px; display: inline-block;" target="_blank"><span style="word-break: break-word; font-size: 15px; line-height: 200%; letter-spacing: normal;">RIPROGRAMMA ORA LA CONSEGNA CLICCANO QUI</span></a></div>
 </div>
 </div>
 </div>
